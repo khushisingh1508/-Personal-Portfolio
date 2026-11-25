@@ -1,6 +1,4 @@
 
-
-
 * {
     margin: 0;
     padding: 0;
@@ -13,11 +11,9 @@ html {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color: #101b49;
+    color: #20332e;
     background: white;
 }
-
-
 
 .navbar {
     min-height: 60px;
@@ -26,14 +22,14 @@ body {
     justify-content: space-between;
     padding: 12px 5%;
     background: white;
-    box-shadow: 0 2px 10px #d8d9e8;
+    box-shadow: 0 2px 10px #dce8e3;
     gap: 20px;
 }
 
 .logo {
     font-size: 16px;
     font-weight: bold;
-    color: #101b49;
+    color: #20332e;
 }
 
 nav {
@@ -44,7 +40,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #101b49;
+    color: #344b42;
     font-size: 13px;
     padding: 10px 0;
     transition: 0.3s;
@@ -52,16 +48,12 @@ nav a {
 
 nav a:hover,
 nav a.active {
-    color: #1765e8;
+    color: #07866b;
 }
 
 nav a.active {
-    border-bottom: 3px solid #1765e8;
+    border-bottom: 3px solid #07866b;
 }
-
-
-
-
 
 .hero {
     min-height: 250px;
@@ -70,11 +62,7 @@ nav a.active {
     align-items: center;
     justify-content: space-between;
     gap: 30px;
-    background: linear-gradient(
-        110deg,
-        #e8e9ff,
-        #d9ddff
-    );
+    background: linear-gradient(110deg, #e4f3ed, #d2eae0);
 }
 
 .hero-text {
@@ -88,19 +76,19 @@ nav a.active {
 }
 
 .hero h1 span {
-    color: #5856c9;
+    color: #07866b;
 }
 
 .hero p {
     font-size: 15px;
     line-height: 1.6;
-    color: #3c4564;
+    color: #425c50;
     margin-bottom: 18px;
 }
 
 .button {
     display: inline-block;
-    background: #2467dc;
+    background: #07866b;
     color: white;
     text-decoration: none;
     padding: 11px 25px;
@@ -110,11 +98,8 @@ nav a.active {
 }
 
 .button:hover {
-    background: #123fa5;
+    background: #05644f;
 }
-
-
-
 
 .profile-placeholder {
     width: 190px;
@@ -122,9 +107,9 @@ nav a.active {
     min-width: 190px;
     border-radius: 50%;
     overflow: hidden;
-    border: 7px solid #f5f5ff;
-    background: #cbd2f0;
-    box-shadow: 0 0 0 15px #d5dafa;
+    border: 7px solid #f7fffb;
+    background: #c5e3d5;
+    box-shadow: 0 0 0 15px #d4eadf;
 }
 
 .profile-placeholder img {
@@ -135,56 +120,54 @@ nav a.active {
     border-radius: 50%;
 }
 
-
-
 .section {
     padding: 25px 8%;
 }
 
 .section h2 {
     font-size: 23px;
-    color: #101b49;
+    color: #20332e;
 }
 
 .underline {
     width: 35px;
     height: 3px;
-    background: #2169ec;
+    background: #07866b;
     border-radius: 5px;
     margin: 7px 0 12px;
 }
-
-
-
 
 .about {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 35px;
-    min-height: 160px;
+    gap: 40px;
+    min-height: 300px;
     background: white;
 }
 
 .about-text {
-    width: 55%;
+    flex: 1;
+}
+
+.about-text h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    color: #07866b;
 }
 
 .about-text p {
     font-size: 14px;
-    line-height: 1.7;
-    color: #35405e;
+    line-height: 1.8;
+    color: #425c50;
+    margin-bottom: 8px;
 }
 
 .about-image {
     width: 40%;
     min-height: 115px;
     border-radius: 10px;
-    background: linear-gradient(
-        135deg,
-        #cbd4f3,
-        #e3e5fa
-    );
+    background: linear-gradient(135deg, #c5e3d5, #e0f0e7);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -195,7 +178,7 @@ nav a.active {
 .code-symbol {
     font-size: 40px;
     font-weight: bold;
-    color: #2467dc;
+    color: #07866b;
 }
 
 .about-image h3 {
@@ -206,13 +189,11 @@ nav a.active {
 .about-image p {
     font-size: 11px;
     margin-top: 5px;
-    color: #505b7a;
+    color: #50695d;
 }
 
-
-
 .skills {
-    background: #e9ebff;
+    background: #eaf5ef;
 }
 
 .skill-list {
@@ -237,19 +218,18 @@ nav a.active {
 
 .skill-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 5px 15px #c9cfee;
+    box-shadow: 0 5px 15px #c9e2d5;
 }
 
 .skill-card .icon {
     font-size: 26px;
-    color: #2169ec;
+    color: #07866b;
     font-weight: bold;
 }
 
 .skill-card b {
     font-size: 12px;
 }
-
 
 .projects {
     background: white;
@@ -267,19 +247,16 @@ nav a.active {
     display: flex;
     align-items: center;
     gap: 14px;
-    border: 1px solid #d5daee;
+    border: 1px solid #d8e8df;
     border-radius: 12px;
     background: white;
     transition: 0.3s;
 }
 
 .project-card:hover {
-    box-shadow: 0 5px 15px #d5d9ee;
+    box-shadow: 0 5px 15px #d5e5dc;
     transform: translateY(-3px);
 }
-
-
-
 
 .project-image {
     width: 36%;
@@ -298,29 +275,18 @@ nav a.active {
 }
 
 .expiry-image {
-    background: linear-gradient(
-        135deg,
-        #d4dcff,
-        #bfcaf1
-    );
+    background: linear-gradient(135deg, #d8eee3, #bfdfcf);
 }
 
 .trash-image {
-    background: linear-gradient(
-        135deg,
-        #d3efdc,
-        #b8dfc5
-    );
+    background: linear-gradient(135deg, #e0f0d9, #c6e3bd);
 }
 
 .image-label {
     font-size: 11px;
     font-weight: bold;
-    color: #263b65;
+    color: #294b3b;
 }
-
-
-
 
 .project-info {
     flex: 1;
@@ -329,37 +295,34 @@ nav a.active {
 .project-info h3 {
     font-size: 17px;
     margin-bottom: 8px;
-    color: #101b49;
+    color: #20332e;
 }
 
 .project-info p {
     font-size: 12px;
     line-height: 1.6;
-    color: #35405e;
+    color: #425c50;
     margin-bottom: 10px;
 }
 
 .outline-button {
     display: inline-block;
     padding: 7px 15px;
-    border: 1px solid #2467dc;
+    border: 1px solid #07866b;
     border-radius: 20px;
-    color: #2467dc;
+    color: #07866b;
     text-decoration: none;
     font-size: 12px;
     transition: 0.3s;
 }
 
 .outline-button:hover {
-    background: #2467dc;
+    background: #07866b;
     color: white;
 }
 
-
-
-
 .contact {
-    background: #e9ebff;
+    background: #eaf5ef;
     display: flex;
     align-items: center;
     gap: 35px;
@@ -382,9 +345,6 @@ nav a.active {
     font-size: 17px;
 }
 
-
-
-
 form {
     flex: 1;
     display: flex;
@@ -401,7 +361,7 @@ input,
 textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid #cbd2e8;
+    border: 1px solid #cbded3;
     border-radius: 6px;
     font-family: Arial, sans-serif;
     font-size: 12px;
@@ -411,7 +371,7 @@ textarea {
 
 input:focus,
 textarea:focus {
-    border-color: #2467dc;
+    border-color: #07866b;
 }
 
 textarea {
@@ -421,7 +381,7 @@ textarea {
 
 form button {
     padding: 11px;
-    background: #2467dc;
+    background: #07866b;
     border: none;
     border-radius: 6px;
     color: white;
@@ -431,16 +391,13 @@ form button {
 }
 
 form button:hover {
-    background: #123fa5;
+    background: #05644f;
 }
-
-
-
 
 footer {
     min-height: 55px;
     padding: 15px 5%;
-    background: #1e2746;
+    background: #203b32;
     color: white;
     display: flex;
     align-items: center;
@@ -462,14 +419,24 @@ footer {
 }
 
 .socials a:hover {
-    color: #8daeff;
+    color: #79d6b0;
 }
 
+.image-placeholder {
+    width: 40%;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 12px;
+}
 
-
+.image-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
 
 @media (max-width: 850px) {
-
     .navbar {
         flex-direction: column;
         gap: 10px;
@@ -492,12 +459,21 @@ footer {
     .project-list {
         flex-direction: column;
     }
-
 }
 
+@media (max-width: 700px) {
+    .about {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .image-placeholder {
+        width: 100%;
+        height: 220px;
+    }
+}
 
 @media (max-width: 600px) {
-
     nav {
         gap: 13px;
         flex-wrap: wrap;
@@ -525,11 +501,6 @@ footer {
     .profile-placeholder {
         width: 145px;
         height: 145px;
-    }
-
-    .about {
-        flex-direction: column;
-        align-items: stretch;
     }
 
     .about-text,
@@ -567,60 +538,5 @@ footer {
     footer {
         flex-direction: column;
         text-align: center;
-    }
-
-}
-
-
-.about {
-    min-height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 40px;
-}
-
-.about-text {
-    flex: 1;
-}
-
-.about-text h3 {
-    font-size: 20px;
-    margin-bottom: 12px;
-    color: #2468df;
-}
-
-.about-text p {
-    font-size: 14px;
-    line-height: 1.8;
-    color: #3d4666;
-    margin-bottom: 8px;
-}
-
-.image-placeholder {
-    width: 40%;
-    height: 250px;
-    overflow: hidden;
-    border-radius: 12px;
-}
-
-.image-placeholder img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-}
-
-
-
-@media (max-width: 700px) {
-    .about {
-        flex-direction: column;
-        align-items: stretch;
-    }
-
-    .image-placeholder {
-        width: 100%;
-        height: 220px;
     }
 }
